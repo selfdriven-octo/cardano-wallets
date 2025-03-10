@@ -1,7 +1,7 @@
 ### A list of well-known Cardano wallets.
 
 ### Status
-- Site is available
+- [cardanowallets.io](https://ardanowallets.io) is available to help with data collection.
 - Collecting data and engaging with wallet providers to update their data.
 
 ### Updating Data
