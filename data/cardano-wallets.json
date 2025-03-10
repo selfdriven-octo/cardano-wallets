@@ -616,7 +616,7 @@
                     "caption": "Tokeo",
                     "summary": "Tokeo Smart Wallet. Send, receive, swap and sell digital assets.",
                     "description": [
-                        "Mobile (iOS / Android)"
+                        "Mobile (Android & iOS)"
                     ],
                     "images": {
                         "icon": "tokeo.icon.svg"
