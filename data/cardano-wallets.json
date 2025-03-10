@@ -1,0 +1,711 @@
+{
+    "cardano": {
+        "wallets": {
+            "schema": {
+                "ui-sizes": {
+                    "nano": {
+                        "description": "On-Device"
+                    },
+                    "small": {
+                        "description": "Mobile"
+                    },
+                    "medium": {
+                        "description": "Tablet, iPad etc"
+                    },
+                    "large": {
+                        "description": "Desktop"
+                    }
+                },
+                "ui-elements": {
+                    "fungible-tokens": {
+                        "description": ""
+                    },
+                    "non-fungible-tokens": {
+                        "description": ""
+                    },
+                    "transactions": {
+                        "description": ""
+                    },
+                    "dapps": {
+                        "description": ""
+                    },
+                    "send-transaction": {
+                        "description": ""
+                    },
+                    "view-seed-phase": {
+                        "description": ""
+                    },
+                    "staking-delegation": {
+                        "description": ""
+                    },
+                    "staking-delegation-many": {
+                        "description": "Many pools"
+                    }
+                },
+                "staking-delegration-types": {
+                    "single-pool-locked": {
+                        "description": "Wallet controls which pool"
+                    },
+                    "single-pool-per-account": {
+                        "description": "User chooses the pool"
+                    },
+                    "many-pools-per-account": {
+                        "description": "User can choose many pools"
+                    }
+                },
+                "user-agents": {
+                    "ios": {
+                        "description": "ios"
+                    },
+                    "android": {
+                        "description": "android"
+                    },
+                    "macos": {
+                        "description": "macos"
+                    },
+                    "windows": {
+                        "description": "windows"
+                    },
+                    "linux": {
+                        "description": "linux"
+                    },
+                    "webbrowser-site": {
+                        "description": "webbrowser-site"
+                    },
+                    "webbrowser-extension": {
+                        "description": "webbrowser-extension"
+                    },
+                    "on-device": {
+                        "description": "on-device"
+                    }
+                },
+                "account-address-types": {
+                    "single": {
+                        "description": "single"
+                    },
+                    "multiple": {
+                        "description": "multiple"
+                    }
+                },
+                "accounts": {
+                    "single": {
+                        "description": "single"
+                    },
+                    "multiple": {
+                        "description": "multiple"
+                    }
+                },
+                "seed-phases": {
+                    "12-words": {
+                        "word-count": "12",
+                        "eras": [
+                            "byron"
+                        ]
+                    },
+                    "15-words": {
+                        "word-count": "15",
+                        "eras": [
+                            "byron",
+                            "shelley"
+                        ]
+                    },
+                    "18-words": {
+                        "word-count": "18",
+                        "eras": [
+                            "shelley"
+                        ]
+                    },
+                    "21-words": {
+                        "word-count": "21",
+                        "eras": [
+                            "shelley"
+                        ]
+                    },
+                    "24-words": {
+                        "word-count": "24",
+                        "eras": [
+                            "shelley"
+                        ]
+                    }
+                },
+                "key-storage-types": {
+                    "user-agent": {
+                        "description": "user-agent"
+                    },
+                    "hardware-device": {
+                        "description": "Ledger, Trezor etc"
+                    }
+                },
+                "on-chain-data-iteraction-types": {
+                    "remote": {
+                        "description": "Via API"
+                    },
+                    "local-full": {
+                        "description": "On user agent eg Daeleus"
+                    },
+                    "local-snapshot": {
+                        "description": "Mitril"
+                    }
+                },
+                "source-code-types": {
+                    "closed": {
+                        "description": "Code can not be viewed"
+                    },
+                    "open": {
+                        "description": "Code can be viewed"
+                    },
+                    "open-community": {
+                        "description": "Code can be viewed and contributed by the community."
+                    }
+                },
+                "app-support-types": {
+                    "none": {
+                        "description": ""
+                    },
+                    "dapp-user-agent": {
+                        "description": "dApps etc"
+                    },
+                    "dapp-hardware-device": {
+                        "description": ""
+                    }
+                },
+                "standards": {
+                    "cip-30": {
+                        "description": "CIP-30"
+                    },
+                    "cip-95": {
+                        "description": "CIP-95",
+                        "comments": "Supports Cardano Volaire Era."
+                    },
+                    "cip-99": {
+                        "description": "CIP-99",
+                        "comments": "Supports Proof Of On-Boarding (POO)."
+                    }
+                },
+                "statuses": {
+                    "supported": {
+                        "description": "Actively supported"
+                    },
+                    "deprecated": {
+                        "description": "Soon to be unsuppored"
+                    },
+                    "unsupported": {
+                        "description": "Not supported anymore"
+                    },
+                    "testing": {
+                        "description": "Released for community testing (beta)"
+                    }
+                },
+                "user-experiences": {
+                    "keep-it-simple": {
+                        "description": "Keep it really simple for me! I do not have many digital assets that I need to protect."
+                    },
+                    "getting-started": {
+                        "description": "I'm just getting started and do not have many digital assets that I need to protect."
+                    },
+                    "using-it-for-real": {
+                        "description": "I'm using Cardano and have digital assets that I need to protect."
+                    },
+                    "experienced-cardano-user": {
+                        "description": "I've been in Cardano"
+                    },
+                    "dgov": {
+                        "description": "I'm a dRep"
+                    },
+                    "identity": {
+                        "description": "Just for my SSI DIDs & VCs etc"
+                    },
+                    "defi": {
+                        "description": "Trading etc"
+                    },
+                    "art-nfts": {
+                        "description": "Art NFT collections etc"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "name": "adalite",
+                    "caption": "AdaLite",
+                    "summary": "A web-based wallet that is simple and easy to use.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Associated with NuFi",
+                        "Catalyst Registration"
+                    ],
+                    "images": {
+                        "icon": "adalite.icon.svg"
+                    },
+                    "url": "https://adalite.io",
+                    "user-experiences": [],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "begin",
+                    "caption": "Begin",
+                    "summary": "A mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. Begin is a good option for users who are looking for a simple and easy-to-use wallet.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)",
+                        "CardanoShield Compatible"
+                    ],
+                    "images": {
+                        "icon": "begin.icon.svg"
+                    },
+                    "url": "https://begin.is",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "coinwallet",
+                    "caption": "Coin Wallet",
+                    "summary": "Trusted by millions of users, over 24 million wallets created in 27 languages in 190 countries, Coin Wallet is the most popular and secure non-custodial multicurrency wallet.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)",
+                        "Desktop (MacOS, Microsoft Windows, Linux & Tor)"
+                    ],
+                    "images": {
+                        "icon": "coinwallet.icon.svg"
+                    },
+                    "url": "https://coin.space",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "daedalus",
+                    "caption": "Daedalus",
+                    "summary": "Developed by IOHK, the official developers of Cardano, Daedalus is a full node wallet, meaning it downloads the entire Cardano blockchain to your device. This provides a high level of security but also requires more storage space.",
+                    "description": [
+                        "Desktop App",
+                        "Full Node",
+                        "Catalyst Registration"
+                    ],
+                    "images": {
+                        "icon": "daedalus.icon.svg"
+                    },
+                    "url": "https://daedalus.io",
+                    "user-experiences": ["experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "ellipal",
+                    "caption": "Ellipal",
+                    "summary": "Ellipal is a hardware wallet that is designed to be very secure. It has a built-in cold storage system that keeps your private keys isolated from the internet.",
+                    "description": [
+                        "Air-gapped Hardware Wallet"
+                    ],
+                    "images": {
+                        "icon": "ellipal.icon.svg"
+                    },
+                    "url": "https://www.ellipal.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "eternl",
+                    "caption": "Eternl",
+                    "summary": "Eternl is a browser-based wallet that is simple and easy to use. It is a non-custodial wallet, so you have complete control over your private keys.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)",
+                        "Scam Warnings (Eternl Guard)",
+                        "Wallet Clean Up",
+                        "dGov Compatible",
+                        "Catalyst Registration"
+                    ],
+                    "images": {
+                        "icon": "eternl.icon.svg"
+                    },
+                    "url": "https://eternl.io",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "standards": ["cip-30", "cip-95"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "eternl-beta",
+                    "caption": "Eternl Beta",
+                    "summary": "A preview of what's to come to Eternl. This beta extension helps the Eternl team test new features with a smaller, but dedicated group of Cardano community members.",
+                    "description": [
+                        "For Community Testing",
+                        "Only use if experienced with Cardano",
+                        "Chrome-based Browsers",
+                        "dGov Compatible"
+                    ],
+                    "images": {
+                        "icon": "eternl-beta.icon.svg"
+                    },
+                    "url": "https://chromewebstore.google.com/detail/eternl-beta/aafgiaaomjbkmgainbdgjpcndnodkajp?pli=1",
+                    "user-experiences": ["experienced-cardano-user", "dgov"],
+                    "standards": ["cip-30", "cip-95"],
+                    "statuses": [
+                        "testing"
+                    ],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "exodus",
+                    "caption": "Exodus",
+                    "summary": "Exodus is a software wallet that supports a wide variety of cryptocurrencies, including Cardano. It is a non-custodial wallet, so you have complete control over your private keys. Exodus also offers a number of other features, such as built-in exchange and staking.",
+                    "description": [
+                        "Desktop App",
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "exodus.icon.svg"
+                    },
+                    "url": "https://www.exodus.com/ada-cardano-wallet",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "flint",
+                    "caption": "Flint",
+                    "summary": "Flint Wallet is a non-custodial mobile wallet for Cardano that is available for iOS and Android devices. It is a simple and easy-to-use wallet that is a good option for beginners.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "flint.icon.svg"
+                    },
+                    "url": "https://flint-wallet.com/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "defi"],
+                    "standards": ["cip-30"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "gamechanger",
+                    "caption": "GameChanger",
+                    "summary": "GameChanger is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. GameChanger is designed for users who are interested in playing blockchain games.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "gamechanger.icon.svg"
+                    },
+                    "url": "https://gamechanger.finance/",
+                    "_dataprocessingstatus": "incomplete",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "id": "817c4dbd4052717e0c3593c402c5c7adf7c40e6a606892c636fc316c3ea04cef"
+                },
+                {
+                    "name": "gerowallet",
+                    "caption": "GeroWallet",
+                    "summary": "GeroWallet is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys. GeroWallet is designed for users who are interested in staking Cardano.",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "Mobile (Android & iOS)",
+                        "CardanoShield Compatible"
+                    ],
+                    "images": {
+                        "icon": "gerowallet.icon.svg"
+                    },
+                    "url": "https://gerowallet.io/",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user", "defi"],
+                    "standards": ["cip-30", "cardano-shield"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "keystone",
+                    "caption": "Keystone",
+                    "summary": "Keystone is a hardware wallet that is designed to be very secure. It has a built-in cold storage system that keeps your private keys isolated from the internet.",
+                    "description": [
+                        "Hardware Wallet"
+                    ],
+                    "images": {
+                        "icon": "keystone.icon.svg"
+                    },
+                    "url": " https://keyst.one/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "ui-sizes": [
+                        "nano"
+                    ],
+                    "ui-elements": [],
+                    "user-agents": [
+                        "on-device"
+                    ],
+                    "account-address-types": [
+                        "single",
+                        "multiple"
+                    ],
+                    "accounts": [
+                        "multiple"
+                    ],
+                    "staking-delegration-types": [],
+                    "app-support-types": [],
+                    "seed-phases": [
+                        "?_24-words"
+                    ],
+                    "key-storage-types": [
+                        "hardware-device"
+                    ],
+                    "on-chain-data-iteraction-types": [],
+                    "source-code": {
+                        "type": [
+                            "closed"
+                        ],
+                        "managed-by": {
+                            "name": "keystone",
+                            "url": ""
+                        }
+                    },
+                    "standards": [],
+                    "_dataprocessingstatus": "incomplete|1"
+                },
+                {
+                    "name": "lace",
+                    "caption": "Lace",
+                    "summary": "Lace is a non-custodial wallet, so you have complete control over your private keys",
+                    "description": [
+                        "Chrome-based Browsers",
+                        "dGov Compatible"
+                    ],
+                    "images": {
+                        "icon": "lace.icon.svg"
+                    },
+                    "url": "https://lace.io",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "ui-sizes": [
+                        "small",
+                        "medium",
+                        "large"
+                    ],
+                    "ui-elements": [
+                        "fungible-tokens",
+                        "non-fungible-tokens"
+                    ],
+                    "user-agents": [
+                        "ios",
+                        "android",
+                        "webbrowser-extension"
+                    ],
+                    "account-address-types": [
+                        "single",
+                        "multiple"
+                    ],
+                    "accounts": [
+                        "multiple"
+                    ],
+                    "staking-delegration-types": [
+                        "many-pool-per-account"
+                    ],
+                    "app-support-types": [
+                        "dapp-user-agent",
+                        "dapp-hardware-device"
+                    ],
+                    "seed-phases": [
+                        "?-24-words"
+                    ],
+                    "key-storage-types": [
+                        "user-agent",
+                        "hardware-device"
+                    ],
+                    "on-chain-data-iteraction-types": [
+                        "remote"
+                    ],
+                    "source-code": {
+                        "type": [
+                            "open"
+                        ],
+                        "managed-by": {
+                            "name": "IOG (Lace)",
+                            "url": "https:/lace.io"
+                        }
+                    },
+                    "standards": [
+                        "cip-30",
+                        "cip-95"
+                    ],
+                    "_dataprocessingstatus": "incomplete|1"
+                },
+                {
+                    "name": "ledger",
+                    "caption": "Ledger",
+                    "summary": "Ledger is a hardware wallet.",
+                    "description": [
+                        "Hardware Wallet",
+                        "Desktop App"
+                    ],
+                    "images": {
+                        "icon": "ledger.icon.svg"
+                    },
+                    "url": "https://www.ledger.com/ledger-live",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "mantium",
+                    "caption": "Mantium",
+                    "summary": "Mantium is a mobile wallet that is available for iOS and Android devices. It is a non-custodial wallet, so you have complete control over your private keys.",
+                    "description": [
+                        "Mobile (iOS)"
+                    ],
+                    "images": {
+                        "icon": "mantium.icon.svg"
+                    },
+                    "url": "https://www.mantium.app",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "nami",
+                    "caption": "Nami",
+                    "summary": "Nami is a non-custodial wallet that gives you complete control over your private keys. This means you're responsible for securing your own funds, but it also gives you the most flexibility.",
+                    "description": [
+                        "Chrome-based Browsers (Extension)"
+                    ],
+                    "images": {
+                        "icon": "nami.icon.svg"
+                    },
+                    "url": "https://namiwallet.io/",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "standards": ["cip-30"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "nufi",
+                    "caption": "NuFi",
+                    "summary": "NuFi is a non-custodial wallet, so you have complete control over your private keys. NuFi is designed for users who are interested in DeFi (decentralized finance).",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "dGov Compatible"
+                    ],
+                    "images": {
+                        "icon": "nufi.icon.svg"
+                    },
+                    "url": "https://nu.fi/",
+                    "standards": ["cip-30", "cip-95"],
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "dgov", "defi"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "poki",
+                    "caption": "Poki",
+                    "summary": "",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "Mobile (Android & iOS)",
+                        "Portfolio Tracker"
+                    ],
+                    "images": {
+                        "icon": "poki.icon.svg"
+                    },
+                    "url": "https://www.getpoki.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user", "art-nfts"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "tangem",
+                    "caption": "Tangem",
+                    "summary": "Tangem is a unique option that offers a combination of a physical card and a mobile app. The card stores your private keys securely, while the app allows you to interact with your Cardano on the go.",
+                    "description": [
+                        "Hardware Wallet"
+                    ],
+                    "images": {
+                        "icon": "tangem.icon.svg"
+                    },
+                    "url": "https://tangem.com",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "tokeo",
+                    "caption": "Tokeo",
+                    "summary": "Tokeo Smart Wallet. Send, receive, swap and sell digital assets.",
+                    "description": [
+                        "Mobile (iOS / Android Coming Soon)"
+                    ],
+                    "images": {
+                        "icon": "tokeo.icon.svg"
+                    },
+                    "url": "https://tokeopay.io",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "art-nfts", "experienced-cardano-user"],
+                    "statuses": [],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "trezor",
+                    "caption": "Trezor",
+                    "summary": "Trezor hardware wallets are another popular option for storing your cryptocurrency securely.",
+                    "description": [
+                        "Hardware Wallet"
+                    ],
+                    "images": {
+                        "icon": "trezor.icon.svg"
+                    },
+                    "url": "https://trezor.io/",
+                    "user-experiences": ["using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "trustwallet",
+                    "caption": "Trust Wallet",
+                    "summary": "Unlock the power of your cryptocurrency assets and explore the world of Web3 with Trust.",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "trustwallet.icon.svg"
+                    },
+                    "url": "https://trustwallet.com",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "typhon",
+                    "caption": "Typhon",
+                    "summary": "Typhonis a non-custodial wallet, so you have complete control over your private keys.",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "Catalyst Registration"
+                    ],
+                    "images": {
+                        "icon": "typhon.icon.svg"
+                    },
+                    "url": "https://typhonwallet.io/",
+                    "user-experiences": ["getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "standards": ["cip-30"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "vespr",
+                    "caption": "Vespr",
+                    "summary": "Vespr Wallet is a non-custodial mobile wallet for Cardano that is available for iOS and Android devices.",
+                    "description": [
+                        "Mobile (Android & iOS)"
+                    ],
+                    "images": {
+                        "icon": "vespr.icon.svg"
+                    },
+                    "url": "https://vespr.xyz/",
+                    "standards": ["cip-99"],
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete"
+                },
+                {
+                    "name": "yoroi",
+                    "caption": "Yoroi",
+                    "summary": "Developed by EMURGO, a company that builds solutions on the Cardano blockchain, Yoroi is a light wallet, meaning it doesn't download the entire blockchain.",
+                    "description": [
+                        "Chrome-based Browsers (Extension)",
+                        "Firefox Browser (Extension)",
+                        "Mobile (Android & iOS)",
+                        "dGov Compatible",
+                        "Catalyst Registration"
+                    ],
+                    "images": {
+                        "icon": "yoroi.icon.svg"
+                    },
+                    "url": "https://yoroi-wallet.com",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user", "dgov"],
+                    "standards": ["cip-99", "cip-30"],
+                    "_dataprocessingstatus": "incomplete"
+                }
+            ]
+        }
+    }
+}
