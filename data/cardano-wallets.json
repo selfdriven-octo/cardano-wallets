@@ -621,7 +621,7 @@
                     "images": {
                         "icon": "tokeo.icon.svg"
                     },
-                    "url": "https://tokeopay.io",
+                    "url": "https://tokeo.io",
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "art-nfts", "experienced-cardano-user"],
                     "statuses": [],
                     "_dataprocessingstatus": "incomplete"
