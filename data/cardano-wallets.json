@@ -257,6 +257,23 @@
                     "_dataprocessingstatus": "incomplete"
                 },
                 {
+                    "name": "brave",
+                    "caption": "Brave",
+                    "summary": "The secure, built-in crypto wallet that supercharges your browser for Web3. It is a non-custodial wallet, so you have complete control over your private keys.",
+                    "description": [
+                        "Brave Browser"
+                    ],
+                    "images": {
+                        "icon": "brave.icon.svg"
+                    },
+                    "url": "https://brave.com/wallet",
+                    "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
+                    "_dataprocessingstatus": "incomplete",
+                     "statuses": [
+                        "testing"
+                    ]
+                },
+                {
                     "name": "coinwallet",
                     "caption": "Coin Wallet",
                     "summary": "Trusted by millions of users, over 24 million wallets created in 27 languages in 190 countries, Coin Wallet is the most popular and secure non-custodial multicurrency wallet.",

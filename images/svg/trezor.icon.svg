@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="405" height="405" viewBox="0, 0, 135, 135">
+  <g id="Background">
+    <rect x="0" y="0" width="135" height="135" fill="#FFFFFF"/>
+    <g stroke-width="1px">
+      <line x1="12" y1="0" x2="12" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="24" y1="0" x2="24" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="36" y1="0" x2="36" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="48" y1="0" x2="48" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="60" y1="0" x2="60" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="72" y1="0" x2="72" y2="135" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="84" y1="0" x2="84" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="96" y1="0" x2="96" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="108" y1="0" x2="108" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="120" y1="0" x2="120" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="132" y1="0" x2="132" y2="135" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="12" x2="135" y2="12" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="24" x2="135" y2="24" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="36" x2="135" y2="36" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="48" x2="135" y2="48" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="60" x2="135" y2="60" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="72" x2="135" y2="72" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="0" y1="84" x2="135" y2="84" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="96" x2="135" y2="96" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="108" x2="135" y2="108" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="120" x2="135" y2="120" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="132" x2="135" y2="132" stroke="#AAAAAA" stroke-opacity="0.25"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M0,0 L135,0 L135,135 L0,135 z"/>
+    </clipPath>
+  </defs>
+  <g id="Image">
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIcAAACHCAAAAAAZjBXWAAAA0mlDQ1BJQ0MgUHJvZmlsZQAAGJVjYGCsSCwoyGESYGDIzSspcg9yjIyIjFJgv8rAzsDIAAaJycUFjgEBPgw4wbdrELWXdUFm4VaHFbCkpBYnA+ktQFyaXFBUwsDAqANkq5eXFIDYIUC2SHZIkDOQnQFk80HVg4C0c2JOZlJRYklqioJ7UWKlgnN+Tn5RcUFiciqJriAClKRWlIBo5/yCyqLM9IwSBUegb1OBduYWlJakFukoeOYl6zEwgMIPouNzIDhcGMXOJJcWlUGNYWQyZmAAABFdNMUdedORAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAACHoAMABAAAAAEAAACHAAAAAPn0hhYAAATUSURBVHgB7ZtNbJRFGMdnS1soUERZS4K1GgIkohAwRkQiMR7wsuLBHjxY4UQIhwXjSaNZbnDgsAe/IjFhPRDl4GFDNEEO4B4UjRo8qFCwSAuhXdOGFqUs3R3eXbe785+vd2bKJj08e9n5P/PMPL/+33k/tjub4GxevNrmBQVjxIEHgvwgP9ABVLQ+yA90ANV8WR/tiOWnhn68NDh6+1bX4odXr316fcJvMGYHc8ycPnF6WJwr+WL/zi4x4NfmQa8b7/VoyizdezFotmgQCxk4vn+RhqIaanv9SsiEYRxHkwaKarjrYCmExN+P4qsWimrXMxcCQLw5zvfGYDDW/bU/iC/Ht8tiMRhr/9QbxJOjsMQBg7HEJ74gfhznljphROfNCU8QL47R+LUxy9n1ix+ID0f5pdkqDu9rprxAfDg+cijfTDnQKo7rDzSLOLQW/OQD4nGfO3RTqZ7c8fLGnuRE8cKpb+CeV00sv3tKybcEnKFHlHtK34fTjdHlLzcoRQqN3viG+/p4X66z7zZMXzkse9sP/XbhzDHzKHK0H1cmLkgLqLOopBgDzhxnECNxTDPlWenQfazJMYScn0+lRff2LuSqqe0fYFAag52SMvAp4WdhXK/+KlV5HrKWzyjTmAKux2UGLTfdx84CB7tkKqvEXY/L0LRYoaNfVEL7hccEwdgfoGzCleMvmGT7CpBNkXil2Y5al0HZhCvHJEyyFpQo1oiCqVdg6BaEK8eUMIaxR0CJAq8ySC/myW1XjhIMND+V4YPSXRhlE64ctjnuRx9xoIvkB/mBDqBK2L73OPJFI7l4tdGMGr0rRSW2JwdF1dO8rD0nPROIaVFbfpaD7uGfQTbFyEizbWuNjTV6TXekegKdLw2nag3yg/xAB1DR+iA/0AFUtD7C/diifBq0BXZjoRhFxwUNIj/ID3QAFa0P8gMdQEXrg/xAB1DR+iA/0AFUtD7ID3QAFa0P8gMdQEXrg/xAB1DR+iA/0AFUPutj8OgdHGxRla++s/SqXT4c43v6Dk6oU2gipc+feg13JmiSMGT7V1saU6uqOz1sG1Hrm8xq9v/tsA+z7kPRcDDWOfC7dcrRzIMqPmP3nSPaTJn63khyOW3Ys90CjujP3Zav6FB+HTB+79gaDsY25u7KJIWU7oDUY63iYOzx7L8CSTmPO6pkpNZxMJbM/FMnmc6tkwtLupUcjC1J/x2R3Myukqqqci4cN95Zrk4oRTrePPMWbsaREmpy4Z6YXxxYrx+cT+kuSbpC1lh3ekRYSdpmDAfnd3JPWGvEd/ZkxrWlIRjLwXk5vzW+mDFjdfY/KGgQDhzRyEIq8Ec2m9SrjB7EjYPz8+YrpdEK01VXR+LKwflQerG5oqanLfWDrqAh5s7B+VjmIU09fahz4E9DRX3Yh6N6Gjc32ujr/x91OFElHD8Ozku59TaAWt/KzIRUJV76cnBeyePmXxnL8USV0Pw5ogksp/HmnPueZBEliIPz3wY6ZB+qeltenNunHcjB+ZW0vAm1LXXOpzLmBnNwXsyIe8IWep6oiBH2O77ZOW5l++pHZ1n62mww7H0OflQLlnJPRiQhJ6qEa91fWP9jrW/85Gc73+i0prh0zpnDpYhDjs/nW4fpglOIA60jP8gPdAAVrY/56cc9TUoueh4UiTEAAAAASUVORK5CYII=" opacity="1" x="0" y="0" width="135" height="135" preserveAspectRatio="xMidYMid" clip-path="url(#Clip_1)"/>
+  </g>
+</svg>

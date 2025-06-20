@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="180" height="180" viewBox="0, 0, 180, 180">
+  <g id="Background">
+    <rect x="0" y="0" width="180" height="180" fill="#FFFFFF"/>
+    <g stroke-width="1px">
+      <line x1="12" y1="0" x2="12" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="24" y1="0" x2="24" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="36" y1="0" x2="36" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="48" y1="0" x2="48" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="60" y1="0" x2="60" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="72" y1="0" x2="72" y2="180" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="84" y1="0" x2="84" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="96" y1="0" x2="96" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="108" y1="0" x2="108" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="120" y1="0" x2="120" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="132" y1="0" x2="132" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="144" y1="0" x2="144" y2="180" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="156" y1="0" x2="156" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="168" y1="0" x2="168" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="180" y1="0" x2="180" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="12" x2="180" y2="12" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="24" x2="180" y2="24" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="36" x2="180" y2="36" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="48" x2="180" y2="48" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="60" x2="180" y2="60" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="72" x2="180" y2="72" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="0" y1="84" x2="180" y2="84" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="96" x2="180" y2="96" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="108" x2="180" y2="108" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="120" x2="180" y2="120" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="132" x2="180" y2="132" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="144" x2="180" y2="144" stroke="#AAAAAA" stroke-opacity="0.5"/>
+      <line x1="0" y1="156" x2="180" y2="156" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="168" x2="180" y2="168" stroke="#AAAAAA" stroke-opacity="0.25"/>
+      <line x1="0" y1="180" x2="180" y2="180" stroke="#AAAAAA" stroke-opacity="0.25"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M0,0 L180,0 L180,180 L0,180 z"/>
+    </clipPath>
+  </defs>
+  <g id="Image">
+    <image xlink:href="data:image/png;base64,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QJKb3Th0ayjXiFtEu3PydNCbKubyFaDnztD96/e5yJbc7M6fe4O5Rl7z7e6Tp+01/YDg0YVFl0Yw5Xs9f8pFtuTmLOxlaTQ04Abqro2bKmbjLlvDoaHelqctN9t3QogYWdjL0mh4sywbG7jrNnJzVuayNh4a7HV5mpvDZOctewehoR5eFMDNYfKzdvCd49IDW64KpDzdpZjRnZycdJ+fn7m6od1UAYAugEH6ANjZz8fHR4HeYncB0LH9l1P/Q04RgkJXAKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2tCKBD268nHqD1PA2t6OcC1K8WcIwcYiMV+A/sGtAe17La2AAAAABJRU5ErkJggg==" opacity="1" x="0" y="0" width="180" height="180" preserveAspectRatio="xMidYMid" clip-path="url(#Clip_1)"/>
+  </g>
+</svg>
