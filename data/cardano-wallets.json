@@ -261,7 +261,7 @@
                     "caption": "Brave",
                     "summary": "The secure, built-in crypto wallet that supercharges your browser for Web3. It is a non-custodial wallet, so you have complete control over your private keys.",
                     "description": [
-                        "Brave Browser"
+                        "Built-in Brave Browser Wallet"
                     ],
                     "images": {
                         "icon": "brave.icon.svg"
