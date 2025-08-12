@@ -269,9 +269,7 @@
                     "url": "https://brave.com/wallet",
                     "user-experiences": ["keep-it-simple", "getting-started", "using-it-for-real", "experienced-cardano-user"],
                     "_dataprocessingstatus": "incomplete",
-                     "statuses": [
-                        "testing"
-                    ]
+                     "statuses": []
                 },
                 {
                     "name": "coinwallet",
