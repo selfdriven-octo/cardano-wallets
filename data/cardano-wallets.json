@@ -262,7 +262,7 @@
                     "summary": "The secure, built-in crypto wallet that supercharges your browser for Web3. It is a non-custodial wallet, so you have complete control over your private keys.",
                     "description": [
                         "Built-in Brave Browser Wallet",
-                        "!! As of OCT2025 it only displays ADA. NFTs are in the wallet, but just not displayed."
+                        "!! As of OCT2025 it only displays ADA. Other tokens are in the wallet, but just not displayed. It's being worked on."
                     ],
                     "images": {
                         "icon": "brave.icon.svg"
