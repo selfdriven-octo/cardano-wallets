@@ -179,7 +179,7 @@ entityos._util.controller.add(
 					[
 						'<div class="col-auto" style="text-align:right; text-align:right; padding-top:2px; padding-right: 0px;padding-left: 28px;">',
 							'<a class="" href="', wallet.url, '" target="_blank">',
-								'<img src="/images/blank.icon.svg" class="img-fluid rounded" style="width:40px;">',
+								'<img src="/images/svg/blank.icon.svg" class="img-fluid rounded" style="width:40px;">',
 							'</a>',
 						'</div>'
 					],'');
@@ -192,7 +192,7 @@ entityos._util.controller.add(
 						[
 							'<div class="col-auto" style="text-align:right; text-align:right;padding-right: 0px; padding-top:2px; padding-left: 28px;">',
 								'<a class="" href="', wallet.url, '" target="_blank">',
-									'<img src="/images/', wallet.images.icon, '" class="img-fluid rounded" style="width:40px;">',
+									'<img src="/images/svg/', wallet.images.icon, '" class="img-fluid rounded" style="width:40px;">',
 								'</a>',
 							'</div>'
 						],'');
