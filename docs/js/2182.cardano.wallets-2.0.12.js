@@ -44,11 +44,11 @@ entityos._util.controller.add(
     name: 'cardano-wallets-init',
     code: function ()
     {
-		let urlData = 'https://raw.githubusercontent.com/selfdriven-foundation/cardano-wallets/main/data/cardano-wallets.json'
+		let urlData = 'https://raw.githubusercontent.com/selfdriven-octo/cardano-wallets/main/data/cardano-wallets.json'
 		
 		if (window.location.pathname == '/next')
 		{
-			urlData = 'https://raw.githubusercontent.com/selfdriven-foundation/about/main/community-projects-we-support/cardano-wallets/data/cardano-wallets-next.json'
+			urlData = 'https://raw.githubusercontent.com/selfdriven-octo/about/main/community-projects-we-support/cardano-wallets/data/cardano-wallets-next.json'
 		}
 
         $.ajax(
@@ -179,7 +179,7 @@ entityos._util.controller.add(
 					[
 						'<div class="col-auto" style="text-align:right; text-align:right; padding-top:2px; padding-right: 0px;padding-left: 28px;">',
 							'<a class="" href="', wallet.url, '" target="_blank">',
-								'<img src="/site/2182/blank.icon.svg" class="img-fluid rounded" style="width:40px;">',
+								'<img src="/images/blank.icon.svg" class="img-fluid rounded" style="width:40px;">',
 							'</a>',
 						'</div>'
 					],'');
@@ -192,7 +192,7 @@ entityos._util.controller.add(
 						[
 							'<div class="col-auto" style="text-align:right; text-align:right;padding-right: 0px; padding-top:2px; padding-left: 28px;">',
 								'<a class="" href="', wallet.url, '" target="_blank">',
-									'<img src="/site/2182/', wallet.images.icon, '" class="img-fluid rounded" style="width:40px;">',
+									'<img src="/images/', wallet.images.icon, '" class="img-fluid rounded" style="width:40px;">',
 								'</a>',
 							'</div>'
 						],'');
@@ -237,7 +237,7 @@ entityos._util.controller.add(
         $.ajax(
         {
             type: 'GET',
-            url: 'https://raw.githubusercontent.com/selfdriven-foundation/cardano-wallets/main/data/cardano-wallets-news.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-octo/cardano-wallets/main/data/cardano-wallets-news.json',
             cors: false,
             cache: false,
             dataType: 'json',

@@ -30,7 +30,7 @@ eos.add(
 		code: function ()
 		{
 			console.log('Supported by selfdrivenOcto "Be Curious, Be Caring".');
-			console.log('https://slfdrvn.io/octo\n\n');
+			console.log('https://selfdriven.foundation/about/octo\n\n');
 			console.log('& Turlia "We have an opportunity to descentralise & rehumanise our society".');
 			console.log('https://dsociety.io\n\n');
 
