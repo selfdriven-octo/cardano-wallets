@@ -1,4 +1,4 @@
-# Contributing to [Project Name]
+# Contributing
 
 Thank you for considering contributing to this project! We welcome all contributions—whether it's information errors, feature suggestions, bug reports, or documentation improvements.
 

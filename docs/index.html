@@ -1,0 +1,406 @@
+<!--
+    Wallets to add:
+
+    Factors to add:
+    - Biometric Support eg GeroWallet
+
+    Alerts:
+    - https://www.cardanoshield.com
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="shortcut icon" href="/site/2182/cardano.png">
+	<link rel="apple-touch-icon" href="/site/2182/cardano.png" />
+
+	<link rel="stylesheet" href="/site/2033/landkit.libs.bundle.css" />
+	<link rel="stylesheet" href="/site/2033/landkit.theme.bundle.css" />
+	<link rel="stylesheet" href="/site/2182/2182.style-2.0.0.css" />
+	<link rel="stylesheet" href="/site/2098/entityos.util-4.4.17.css" />
+
+	<title>Cardano Wallets</title>
+</head>
+
+<body style="padding-left:30px; padding-right: 30px;">
+	<div class="pt-5">
+		<a style="margin-left: 10px; font-family:system-ui !important; color:#ff943d !important; font-size:1.6rem; text-align:left;"
+			href="/">
+			<img class="img-responsive" src="/images/cardano-logo.png" style="width:140px;"></a>
+
+		<div class="pt-0 fw-bold" style="margin-left: 12px; color:#1133AD; font-size:4.4rem; line-height:0.8;">
+			Wallets
+		</div>
+
+		<div class="pt-6 fw-bold text-secondary" style="margin-left: 12px; font-size:2rem; line-height:1;">
+			A list of well-known Cardano wallets.
+		</div>
+
+		<!--
+			Link to JSON file of "Predefined searches / standards:cip-30"
+			<div class="input-group-prepend" id="admin-teams-types">
+			<button type="button" class="btn btn-white dropdown-toggle"
+				data-toggle="dropdown" id="admin-teams-types-filter" aria-expanded="false"><span
+					class="dropdown-text">All</span></button>
+			<ul class="dropdown-menu mt-1" data-controller="admin-teams-dashboard" data-context="type">
+				<li><a href="#" class="myds-dropdown" data-id="-1">XXX</a></li>
+				
+			</ul>
+		</div>
+		-->
+
+		<div class="card mt-6 shadow-lg">
+			<div class="card-body pb-4 px-3 px-md-6">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<form>
+							<div class="input-group border-primary border rounded">
+								
+								<input type="text" class="form-control entityos-text"
+								data-scope="cardano-wallets" data-context="search-text"
+								data-controller="cardano-wallets-search"
+								id="cardano-wallets-search-text"
+								placeholder="Search">
+	
+								<div class="input-group-append">
+									<a class="btn text-primary btn-lg fw-bold" data-toggle="collapse" href="#wallets-filter-view"><i class="fe fe-filter"></i></a>
+								</div>
+							</div>
+							<div id="wallets-filter-view" class="col-12 mx-1 mx-md-3 mt-3 text-secondary collapse show">
+								<div class="d-none d-md-block">
+									<div>
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-experience-keep-it-simple" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-experience-keep-it-simple" data-selected-id="1" data-unselected-id="0"></input> Keep It Simple, I'm New To Cardano! 
+									</div>
+									<div class="mt-2">
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-experience-dgov" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-experience-dgov" data-selected-id="1" data-unselected-id="0"></input> dGov Compatible 
+									</div>
+									<div class="mt-2">
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-testing" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-testing" data-selected-id="1" data-unselected-id="0"></input> Include "Beta" Status Wallets
+									</div>
+								</div>
+
+								<div class="d-block d-md-none small">
+									<div>
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-experience-keep-it-simple" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-experience-keep-it-simple" data-selected-id="1" data-unselected-id="0"></input> Keep It Simple! 
+									</div>
+									<div class="mt-2">
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-experience-dgov" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-experience-dgov" data-selected-id="1" data-unselected-id="0"></input> dGov Testing 
+									</div>
+									<div class="mt-2">
+										<input type="checkbox" class="entityos-check" name="cardano-wallets-search-testing" data-controller="cardano-wallets-search" data-scope="cardano-wallets" data-context="search-testing" data-selected-id="1" data-unselected-id="0"></input> Wallets Seeking Community Testing
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-4" id="wallets-view">
+		</div>
+
+		<div class="mt-4">
+			<div>
+				<div class="card shadow-lg">
+					<div class="card-header py-3">
+						<div class="row">
+							<div class="col">
+								<h1 class="text-success mb-0"><i class="fe fe-user"></i> Protect Yourself</h1>
+							</div>
+							<div class="col-auto text-right">
+								<a class="btn btn-sm mt-1 btn-outline-danger rounded-pill small"
+									href="https://cardano.ninja" target="_blank">
+									<i class="fe fe-alert-triangle"></i> Alerts <i class="fe fe-external-link"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body pb-4 pt-5" id="cardano-wallets-alert-view">
+						<ol>
+							<li>
+								<div class="fw-bold">Always make sure that the wallet you are installing is legitimate.
+								</div>
+								<div class="text-secondary small">i.e. from one of the
+									links in the wallets listed on this site.</div>
+								<div class="text-secondary small">Don't trust a link that has been sent to you!</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Generally, "Air Drop Websites" are a scam.</div>
+								<div class="text-secondary small">Apply the rule: if it's too good
+									to be true, it probably isn't!</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Watch out for "Airdrop Tokens" that are sent to your wallet.</div>
+								<div class="text-secondary small">The URL link in the token will lead you to a website
+									that will send many tokens from your wallet to the creator of the scam website when
+									you sign the transaction.</div>
+								<div class="text-secondary small">Apply the rule: if it's too good
+									to be true, it probably isn't!</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Look out for deep-fake GenerativeAI based Videos!</div>
+								<div class="text-secondary small">Again, apply the rule: if it's too good
+									to be true, it probably isn't!</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Look out for social media impersonation.</div>
+								<div class="text-secondary small">Check the date when the account was created, the
+									number of followers and look closely at the handle, they will typically change one
+									character.</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Be very careful who you trust.</div>
+								<div class="text-secondary small">Always independently verify who they say they are.
+								</div>
+								<div class="text-secondary small">Never share your wallets seed-phrase with anyone!
+								</div>
+							</li>
+
+							<li class="mt-2">
+								<div class="fw-bold">Check the transaction you are sending from your wallet before
+									sending/signing the
+									transaction!</div>
+							</li>
+
+							<li class="mt-2 ">
+								<div class="fw-bold">Consider creating a wallet that you use as your transactional (hot)
+									wallet.</div>
+								<div class="text-secondary small">i.e. have a main (cold) wallet and then send only the
+									assets you plan to use with the website/app to the transactional (hot) wallet. Once
+									you've finished interacting with the website/app using your transactional (hot)
+									wallet, send assets back to your main (cold) wallet.</div>
+							</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-6">
+			<div>
+				<div class="card shadow-lg">
+					<div class="card-header pb-3 pt-4">
+						<div class="row">
+							<div class="col">
+								<h1 class="text-info mb-0 mt-1 mt-md-0"><i class="fe fe-message-square"></i> News
+								</h1>
+							</div>
+							<div class="col-auto text-right">
+								<a class="btn btn-sm btn-outline-secondary rounded-pill small" data-toggle="collapse"
+									href="#news-suggest">
+									Suggest
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body pt-5 pb-4 collapse border-bottom" id="news-suggest">
+						<ul>
+							<li class="mt-2">
+								<div>If you have news that you think should be shared, then please do a PR (update) @ <a href="https://github.com/selfdriven-foundation/cardano-wallets/blob/main/data/cardano-wallets-news.json" target="_blank"
+												class="text-secondary"><strong class="text-info">cardano-wallets-news.json</strong></a> and add any news.
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="card-body pt-5 pb-4" id="wallet-news-view">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-6 mb-6">
+			<div>
+				<div class="card shadow-lg">
+					<div class="card-body p-5 px-7">
+						<div class="row">
+							<div class="col-12">
+								<div class="mt-md-1 fw-bold lead" style="font-family: system-ui !important;">
+									A Cardano Community Project<br />Supported by <a href="https://selfdriven.foundation/about/octo"
+										target="_blank">selfdrivenOcto</a> & <a href="https://dsociety.io"
+										target="_blank">Turlia</a>
+								</div>
+
+								<ul>
+									<li class="mt-2 pr-md-4 text-secondary" style="font-family: system-ui !important;">
+										<div class="fw-bold">Version 1.0.0</div>
+										<div class="text-left mt-2"><a href="https://energy.selfdriven.foundation/cardano-catalyst/" target="_blank"
+											class="btn btn-sm btn-outline-info rounded-pill">Latest Catalyst Proposal To Upgrade This Website <i
+												class="fe fe-external-link"></i></a></div>
+									</li>
+
+									<li class="mt-2 text-info fw-bold" style="font-family: system-ui !important;">
+										The listing of a wallet is in no way an endorsement of the wallet.<br />Do your
+										own research!
+									</li>
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										This wallet list is not exhaustive.
+									</li>
+									<li class="mt-2 pr-md-4 text-secondary" style="font-family: system-ui !important;">
+										<div class="pr-md-4 text-secondary" style="font-family: system-ui !important;">
+											This site is a work in progress with much more functionality to come.</div>
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">
+											Including filtering and categorising based on schema attributes and user experience levels etc.</div>
+									</li>
+									<li class="mt-2 pr-md-4 text-secondary" style="font-family: system-ui !important;">
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">We are currently collecting the
+											full details of all the wallets as per this
+											<a href="https://github.com/selfdriven-octo/cardano-wallets/tree/main/data/"
+												class="text-secondary" target="_blank">schema <i
+													class="fe fe-external-link"></i></a>.
+										</div>
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">
+											The JSON data file will be also be available as JSON-LD.</div>
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">
+											Data schema will be aligned with the wallet standards being worked on at <a href="https://intersectmbo.org" class="text-secondary" target="_blank">IntersectMBO <i
+													class="fe fe-external-link"></i></a></div>
+										
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">
+											<strong class="text-info">If you are the developer of a wallet</strong>
+											please do a PR on the JSON data @ <a href="https://github.com/selfdriven-octo/cardano-wallets/blob/main/data/cardano-wallets.json" target="_blank"
+												class="text-secondary"><strong class="text-info">cardano-wallets.json</strong></a> and update your section.
+										</div>
+										<div class="mt-1 pr-md-4 text-secondary"
+											style="font-family: system-ui !important;">
+											<strong class="text-info">If you are news content provider</strong>
+											please do a PR on the JSON data @ <a href="https://github.com/selfdriven-octo/cardano-wallets/blob/main/data/cardano-wallets-news.json" target="_blank"
+												class="text-secondary"><strong class="text-info">cardano-wallets-news.json</strong></a> and add any news.
+										</div>
+									</li>
+									<li class="mt-2 pr-md-4 text-secondary" style="font-family: system-ui !important;">
+										<div class="pr-md-4 text-secondary" style="font-family: system-ui !important;">
+											Once the wallet data has been collected, we will focus on a full
+											look-and-feel creative update for the website - see Catalyst Proposal.</div>
+									</li>
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										<a href="https://github.com/selfdriven-octo/cardano-wallets/tree/main/data/"
+											class="text-secondary" target="_blank">
+											<i class="fe fe-github"></i> Cardano Wallet Data & Schema (JSON) [Shared as
+											CC0]
+									</li>
+									<li class="mt-2 pr-md-4 text-secondary" style="font-family: system-ui !important;">
+										<div>
+											Please send all feedback as an Issue @ <a href="https://github.com/selfdriven-octo/cardano-wallets/issues" target="_blank"
+												class="text-secondary">github.com/selfdriven-foundation/cardano-wallets/issues</a>
+										</div>
+									</li>
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										<a href="https://selfdriven.support/guides/getting-on-chain" class="text-secondary"
+											target="_blank">
+											Getting On-Chain Guide <i class="fe fe-external-link"></i>
+										</a>
+									</li>
+
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										We are also working on <a href="https://cardano.ninja" target="_blank"
+											class="text-secondary">Cardano.Ninja</a>.
+									</li>
+
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										There is also a list of well-known wallets @ <a href="https://cardano-community.github.io/support-faq/Wallets/list/" target="_blank"
+											class="text-secondary">cardano-community.github.io</a>.
+									</li>
+									<li class="mt-2 text-secondary" style="font-family: system-ui !important;">
+										<a href="https://docs.cardano.org/cardano-testnet/tools/faucet/" target="_blank"
+											class="text-secondary">Cardano Test ADA Faucet <i class="fe fe-external-link"></i></a>
+									</li>
+								</ul>
+
+								<div class="d-none py-4 lead fw-bold">
+									<div class="text-left"><a href="https://forms.gle/LbtH54DL8V5RL8TD8" target="_blank"
+											class="btn btn-sm btn-outline-info rounded-pill">Submit Wallet Data Add,
+											Update or Delete Request (Online Form) <i
+												class="fe fe-external-link"></i></a> Else do a pull-request.</div>
+								</div>
+
+								<ul>
+									<li class="d-none pt-3 text-muted border-top" style="font-family: system-ui !important;">
+										Cardano dGov | <a href="https://drep.tools" target="_blank"
+											class="text-muted">drep.tools <i class="fe fe-external-link"></i></a>
+									</li>
+
+									<li class="mt-2 text-muted" style="font-family: system-ui !important;">
+										Cardano Ninja | <a href="https://cardano.ninja" target="_blank"
+											class="text-muted">cardano.ninja <i
+												class="fe fe-external-link"></i></a>
+									</li>
+
+									<li class="mt-2 text-muted" style="font-family: system-ui !important;">
+										Cardano Build | <a href="https://cardano.build" target="_blank"
+											class="text-muted">cardano.build <i
+												class="fe fe-external-link"></i></a>
+									</li>
+
+									<li class="mt-2 text-muted" style="font-family: system-ui !important;">
+										CardanoShield | <a href="https://cardanoshield.com" target="_blank"
+											class="text-muted">CardanoShield.com <i class="fe fe-external-link"></i></a>
+									</li>
+
+								</ul>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="d-none mt-6 card shadow-lg">
+			<div class="card-body">
+				<div class="">
+					<button id="wallet-connect" type="button" class="btn btn-outline-primary disabled"
+						data-container="body" data-toggle="popover" data-placement="bottom">
+						Connect
+					</button>
+				</div>
+
+				<div id="wallet-view">
+					<div class="mt-6 fw-bold text-secondary" style="font-size: 1.2rem;">
+						Initialising...</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+<!-- Vendor JS -->
+<script src="/js/landkit.vendor.bundle.js"></script>
+
+<!-- Theme JS -->
+<script src="/js/landkit.theme.bundle.js"></script>
+
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/lodash.min.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/numeral.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/cbor.js"></script>
+<script src="/js/underscore.string.min.js"></script>
+
+<script src="/js/entityos-3.9.6.js"></script>
+<script src="/js/entityos.util-5.0.9.js"></script>
+<script src="/js/entityos.util.protect-1.0.5.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/@stricahq/typhonjs@1.2.8/dist/index.min.js"></script>-->
+<script src="/js/typhonjs.min.js"></script>
+<script src="/js2182.cardano.wallets-2.0.12.js"></script>
+
+<script type="module" src="/js/2182.cardano.wallets.util-2.0.0.js"></script>
+
+</html>

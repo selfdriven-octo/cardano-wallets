@@ -1,0 +1,61 @@
+body {
+    background-color: transparent !important;
+    font-family: system-ui !important;
+}
+
+.popover {
+    background-color: #335eea !important;
+    border-color: #335eea !important;
+    border-width: 1px !important;
+}
+
+.entityos-click-x {
+    color: #4c4c4c !important;
+    font-size: 1.2rem !important;
+}
+
+.bs-popover-bottom>.popover-arrow:after {
+    border-bottom-color: #4c4c4c;
+}
+
+.bs-popover-right>.popover-arrow:after {
+    border-right-color: #4c4c4c;
+}
+
+.bs-popover-left>.popover-arrow:after {
+    border-left-color: #4c4c4c;
+}
+
+.entityos-dropdown {
+    color: #4c4c4c !important;
+    font-size: 1.2rem !important;
+}
+
+a {
+    color: #343a40
+}
+
+a:hover {
+    color: #335eea;
+}
+
+.btn-outline-primary {
+    border-color: #335eea;
+    color: #335eea;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:hover {
+   background-color:  #335eea;
+   border-color: #335eea;
+   color: white !important;
+}
+
+.btn-outline-primary.disabled {
+   background-color: transparent;
+   border-color: #7f7f7f;
+   color: #7f7f7f !important;
+}
+
+h4 {
+    color: #335eea;
+}

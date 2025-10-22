@@ -1,7 +1,7 @@
 ### A list of well-known Cardano wallets.
 
 ### Status
-- [cardanowallets.io](https://ardanowallets.io) is available to help with data collection.
+- [cardanowallets.io](https://cardanowallets.io) is available to help with data collection.
 - Collecting data and engaging with wallet providers to update their data.
 
 ### Updating Data
@@ -10,15 +10,14 @@
     - [cardano-wallets-news.json](/data/cardano-wallets-news.json)
 
 ### Contact Us
-- [selfdriven.foundation/connect](https://selfdriven.foundation/connect)
+- [selfdriven.fyi/connect](https://selfdriven.fyi/connect)
 
 ### Resources
-- **[GitHub Repo](https://github.com/selfdriven-foundation/cardano-wallets)**
+- **[GitHub Repo](https://github.com/selfdriven-octo/cardano-wallets)**
 
-### Next 3
+### Next 2
 - Engage wallet providers to update their data
-- Move website to be github hosted
-- Catalyst Funding for v2
+- Funding support for Verion 2
 
 ----
-[cardanowallets.io](https://ardanowallets.io)
+[cardanowallets.io](https://cardanowallets.io)
