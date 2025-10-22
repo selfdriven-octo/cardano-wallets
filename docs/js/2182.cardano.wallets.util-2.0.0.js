@@ -1,4 +1,4 @@
-import { EntityOS } from '/site/2152/entityos.module.class-1.0.0.js';
+import { EntityOS } from '/js/entityos.module.class-1.0.0.js';
 const eos = new EntityOS();
 
 // BASED ON DSOCIETY | WALLET-BY-EXAMPLE
