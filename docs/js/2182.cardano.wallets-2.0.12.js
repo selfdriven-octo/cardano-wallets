@@ -48,7 +48,7 @@ entityos._util.controller.add(
 		
 		if (window.location.pathname == '/next')
 		{
-			urlData = 'https://raw.githubusercontent.com/selfdriven-octo/about/main/community-projects-we-support/cardano-wallets/data/cardano-wallets-next.json'
+			urlData = 'https://raw.githubusercontent.com/selfdriven-octo/cardano-wallets/main/data/cardano-wallets-next.json'
 		}
 
         $.ajax(
